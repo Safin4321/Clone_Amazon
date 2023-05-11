@@ -1,0 +1,44 @@
+#container{
+    height: 300px;
+    padding: 10px;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+#pContainer{
+    
+    display:flex;
+    
+}
+.pImg{
+    width: 40%;
+}
+.pImg img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.pDes{
+    width: 60%;
+        
+}
+.cartBtn{
+  background: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.removeBtn{
+    background: red; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+  }
